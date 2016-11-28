@@ -1,0 +1,16 @@
+.btn-success-border {
+  -webkit-transition: color 0.5s ease-out;
+     -moz-transition: color 0.5s ease-out;
+      -ms-transition: color 0.5s ease-out;
+  border: #149c82 3px solid;
+  background: none;
+  color: #149c82;
+}
+.btn-success-border:hover {
+  -webkit-transition: color 0.5s ease-out;
+     -moz-transition: color 0.5s ease-out;
+      -ms-transition: color 0.5s ease-out;
+  border: #149c82 3px solid;
+  background: #149c82;
+  color: #FFF;
+}

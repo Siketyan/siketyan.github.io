@@ -1,0 +1,161 @@
+/* elements */
+* {
+  font-family: 'Segoe UI', 'Meiryo UI', 'Meiryo', sans-serif;
+}
+
+body {
+  background-color: #272727;
+  color: #EEE;
+  width: 100%;
+}
+
+h2, h3 {
+  font-family: 'Segoe UI Light', 'Yu Gothic UI Light', 'Meiryo UI', 'Meiryo', sans-serif;
+  font-weight: normal;
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+h2 img, h3 img {
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
+p {
+  line-height: 1.3em;
+  margin: 5px 0;
+}
+
+/* ids */
+#intro-text {
+  font-family: 'Consolas', 'Segoe UI Light', 'Yu Gothic UI', 'Meiryo', sans-serif;
+  font-size: 26px;
+  font-weight: lighter;
+}
+
+#intro-text.comment {
+  color: #519F50;
+}
+
+/* classes */
+.button {
+  border: #3399FF 1px solid;
+  color: #FFF;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 13px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+
+.card {
+  background-color: #DDD;
+  border-radius: 7px;
+  color: #222;
+  margin: 15px 100px;
+  min-height: 50px;
+  padding: 20px 40px;
+}
+
+.depth-1 {
+  margin-left: 50px;
+}
+
+.depth-2 {
+  margin-left: 87px;
+}
+
+.intro {
+  width: 100%;
+  padding: 0;
+}
+
+.intro-hr {
+  border-color: #888;
+  margin: 70px 50px 0px 50px;
+  max-width: 1280px;
+}
+
+.menu {
+  background-color: #272727;
+  height: 64px;
+}
+
+.menu-static {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.menu-transperent {
+  background-color: transparent;
+}
+
+.menu-list {
+  display: inline-block;
+  float: left;
+  font-size: 0;
+  max-height: 64px;
+  overflow: hidden;
+  width: 50%;
+}
+
+.menu-list > li {
+  color: #FFF;
+  display: inline-block;
+  font-size: 14px;
+  padding: 25px 40px;
+  zoom: 1;
+}
+
+.menu-list > li:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+
+.menu-right {
+  float: right;
+  text-align: right;
+}
+
+.menu-header {
+  font-size: 18px !important;
+  padding: 23px 40px !important;
+}
+
+.wrapper {
+  margin: auto;
+}
+
+/* media queries */
+@media (max-width: 768px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .wrapper {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .wrapper {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrapper {
+    width: 1170px;
+  }
+}
